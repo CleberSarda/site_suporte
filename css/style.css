@@ -21,13 +21,14 @@ html.body{
 }
 
 header{
-    background-color: rgb(13, 90, 90);
+    background-color: rgba(24, 173, 54, 0.52);
     height: 100px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .logo{
     width: 30%;
+    margin: auto;
 }
 
 .menu{
@@ -42,9 +43,6 @@ header{
     font-weight: bold;
     margin-right: 15px;
 }
-
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
+body {
+    background-image: url("img\touch.jpg");
 }
-
